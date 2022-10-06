@@ -1,0 +1,34 @@
+{
+  "name": "cpaas-sample-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@cpaassdk/cpaas-sdk": "^1.0.0",
+    "@popperjs/core": "^2.11.4",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.1.3",
+    "popper.js": "^1.16.1",
+    "unique-names-generator": "^4.7.1",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.13",
+    "vue-select": "^4.0.0-beta.3",
+    "vue-spinner": "^1.0.4",
+    "vue-timer-hook": "^1.0.0"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "@types/vue-select": "^3.16.0",
+    "@vitejs/plugin-vue": "^2.2.0",
+    "sass": "^1.49.9",
+    "typescript": "^4.5.4",
+    "unique-names-generator": "^4.7.1",
+    "unplugin-vue-components": "^0.18.4",
+    "vite": "^2.8.0",
+    "vue-tsc": "^0.29.8"
+  }
+}

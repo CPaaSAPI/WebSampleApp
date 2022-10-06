@@ -1,0 +1,9 @@
+{
+    "customDomain": "webrtc-dev.restcomm.com",
+    "accountSid": "<Account SID from restcomm>",
+    "authToken": "<Auth Token from restcomm>",
+    "appSid": "ClickToCallDevApp",
+    "clientId": "testapp_client_id",
+    "pnsToken": "PNSTOKEN",
+    "baseUrl": "https://dev-us-east-1-pop-discovery.s3.amazonaws.com"
+}

@@ -1,0 +1,60 @@
+audio {
+    display: none
+}
+/// Block Element
+/// @access public
+/// @param {String} $element - Element's name
+@mixin element($element) {
+    &__#{$element} {
+        @content;
+    }
+}
+
+/// Block Modifier
+/// @access public
+/// @param {String} $modifier - Modifier's name
+@mixin modifier($modifier) {
+    &--#{$modifier} {
+        @content;
+    }
+}
+
+.btn {
+    animation-delay: 0.8s;
+    animation-duration: 100ms;
+    border-radius: 15px;
+    min-height: 80px;
+    color: #f2f2f2;
+    min-width: 110px;
+    font-weight: 600;
+    transition: all 50ms linear
+}
+.btn:hover {
+    color:#fff;
+    transform: scale(1.05);
+}
+
+
+
+.btn-mav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include modifier('color-1') {
+        background-color: #4361ee;
+    }
+    @include modifier('color-2') {
+        background-color: #4895ef;
+    }
+    @include modifier('color-3') {
+        background-color: #3a0ca3;
+    }
+    @include modifier('height-normal') {
+        min-height:auto!important;
+        border-radius: 5px;
+        
+    }
+
+    
+}
